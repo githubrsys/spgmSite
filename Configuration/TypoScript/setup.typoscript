@@ -1,0 +1,34 @@
+######################
+#### DEPENDENCIES ####
+######################
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:bootstrap_package/Configuration/TypoScript/setup.typoscript">
+
+
+##############
+#### PAGE ####
+##############
+page {
+    includeCSSLibs {
+        googlewebfont >
+    }
+
+    includeCSS {
+        theme = EXT:spgmsite/Resources/Public/Css/theme.min.css
+    }
+
+    includeJSLibs {
+
+    }
+
+    includeJS {
+
+    }
+
+    includeJSFooterlibs {
+
+    }
+
+    includeJSFooter {
+        spgmsite_scripts = EXT:spgmsite/Resources/Public/JavaScript/Dist/scripts.js
+    }
+}
